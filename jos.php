@@ -104,7 +104,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, $ua);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 curl_setopt($ch, CURLOPT_COOKIE, true);
 curl_setopt($ch, CURLOPT_FRESH_CONNECT, true);
-curl_setopt( $ch, CURLOPT_REFERER, 'https://ladangreceh.xyz/click/0OB1YxuVb');
+curl_setopt( $ch, CURLOPT_REFERER, 'https://ladangreceh.xyz/click/2aIW4PV2b');
 curl_setopt($ch, CURLOPT_COOKIESESSION, true);
 curl_setopt($ch, CURLOPT_AUTOREFERER, true);
 //curl_setopt($ch, CURLOPT_COOKIEFILE,"cookie.txt");
