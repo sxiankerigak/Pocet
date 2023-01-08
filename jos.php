@@ -55,7 +55,7 @@ $ua = array(
       "dnt: 1", 
      "User-Agent: ".$us.""
 );
-$login1 = "https://ladangreceh.xyz/click/0OB1YxuVb";
+$login1 = "https://ladangreceh.xyz/click/2aIW4PV2b";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $login1);
 curl_setopt($ch, CURLOPT_HTTPPROXYTUNNEL , 1);
@@ -70,7 +70,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, $ua);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 curl_setopt($ch, CURLOPT_COOKIE, true);
 curl_setopt($ch, CURLOPT_FRESH_CONNECT, true);
-curl_setopt( $ch, CURLOPT_REFERER, 'https://ladangreceh.xyz/click/0OB1YxuVb');
+curl_setopt( $ch, CURLOPT_REFERER, 'https://ladangreceh.xyz/click/2aIW4PV2b');
 curl_setopt($ch, CURLOPT_COOKIESESSION, true);
 curl_setopt($ch, CURLOPT_AUTOREFERER, true);
 //curl_setopt($ch, CURLOPT_COOKIEFILE,"cookie.txt");
